@@ -21,6 +21,6 @@ class TestController extends Controller
         }else{
             $user = Auth::user();
         }
-        return $user;
+        dd($user);
     }
 }
